@@ -1,5 +1,5 @@
 require "sinatra"
-#require "sinatra/reloader"
+require "sinatra/reloader" if development?
 
 # Takes a string and shift factor and outputs the Caesar ciphered string
 def caesar_cipher(str, shift_factor)
