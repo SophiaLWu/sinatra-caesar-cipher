@@ -2,16 +2,40 @@
 <html>
   <head>
     <title>Caesar Cipher</title>
+    <link rel="stylesheet" type="text/css" href="/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
   </head>
   <body>
+    <div>
+      <img class="left_column" src="column.png" alt="Roman column">
+      <img class="right_column" src="column.png" alt="Roman column">
+    </div>
+
     <h1>Caesar Cipher</h1>
+
+    <img class="caesar" src="caesar.jpg" alt="Julius Caesar">
+
     <form>
-      <input type="text" name ="ciphertext" />
-      <input type="text" name ="shift" />
-      <input type="submit" value="cipher" />
+      <p>
+        Enter text that you would like ciphered:
+        <input class="cipher" type="text" name ="ciphertext" />
+      </p>
+      <p>
+        Enter a shift factor:
+        <input class="shift" type="text" name ="shift" />
+      </p>
+      <p>
+        <input class="button" type="submit" value="Cipher!" />
+      </p>
     </form>
-    <p> 
-      Ciphered text: <%= ciphered_text %>
+
+    <p>
+    
     </p>
+
+    <h2> 
+      Ciphered text: <%= ciphered_text %>
+    </h2>
+
   </body>
 </html>

@@ -1,0 +1,53 @@
+body {
+  background-color: #954083;
+  color: white;
+  font-family: 'Cormorant SC', serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 20px;
+}
+
+.caesar {
+  height: 400px;
+  width: 325px;
+}
+
+.left_column, .right_column {
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+}
+
+.left_column {
+  left: 0;
+}
+
+.right_column {
+  right: 0;
+}
+
+p {
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.cipher {
+  margin-top: 20px;
+  width: 250px;
+}
+
+.shift {
+  width: 25px;
+}
+
+.button {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 30px;
+}
