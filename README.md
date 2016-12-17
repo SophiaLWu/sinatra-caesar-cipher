@@ -2,7 +2,7 @@
 
 This is a Caesar Cipher web app that allows users to type in words/phrases and receive a ciphered (or deciphered) text back.
 
-Click [here](https://shielded-temple-74302.herokuapp.com/) to play the game on the web.
+Click [here](https://shielded-temple-74302.herokuapp.com/) to use the caesar cipher web app.
 
 The original Caesar Cipher script can be found [here](https://github.com/SophiaLWu/project-ruby-building-blocks/blob/master/caesar-cipher.rb).
 
